@@ -1,0 +1,225 @@
+h1{
+    text-align: center;
+    background: rgb(252, 232, 9);
+}
+h1:hover{
+    background-color: rgb(29, 165, 228);
+    transition: 1s;
+}
+.para{
+    border: 2px solid black;
+    display: inline;
+    background-color: brown;
+    color: aliceblue;
+    
+}
+.para:hover{
+    border: 2px solid cadetblue;
+    background-color: rgb(53, 49, 45);
+    float: inline-end;
+    transition: 1.5s;
+}
+a{
+    border: 3px solid black;
+
+}
+a:hover{
+    color: hotpink;
+    padding: 10px;
+    display: inline;
+    background-color: cadetblue;
+    transition: 1s;
+    border-radius: 50%;
+
+}
+article{
+    background-color: darkgreen;
+    color: antiquewhite;
+    text-align: center;
+    padding: 9px;
+}
+article:hover{
+    opacity: 0.5;
+}
+
+aside{
+    background-color: gold;
+    padding: 20px;
+    border: 2px solid black;
+    width: 500px;
+    height: 30px;
+    display: inline-block;
+    transition: height 2s, width 2s;
+
+}
+aside:hover{
+    height: 100px;
+    width: 500px;
+}
+b{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    color: black;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-top: 30px;
+}
+b:hover{
+    color: #fff;
+    background-color: black;
+    padding: 5px;
+    
+}
+bdo{
+    height: 20px;
+    width: 20px;
+    background-color:black;
+    color: white;
+    transition:step-start;
+    margin-top: 30px;
+}
+bdo:hover{
+    color:black;
+    background-color: white;
+    padding: 5px;
+}
+button{
+    background-color: cyan;
+    border-radius: 20px;
+    
+}
+button:hover{
+    color: gray;
+    opacity: 0.5;
+    transition: ease-in;
+}
+#cap{
+    height: 20px;
+    width: 20px;
+    background-color:black;
+    color: white;
+    transition:step-start;
+    margin-top: 30px;
+}
+#cap:hover{
+    color:black;
+    background-color: white;
+    padding: 5px;
+}
+cite{
+    height: 20px;
+    width: 20px;
+    background-color:black;
+    color: wheat;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-top: 30px;
+}
+cite:hover{
+    color: #fff;
+    padding: 5px;
+    margin-left: 100px;
+    
+}
+del{
+    background-color: chartreuse;
+}
+dl {
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:coral;
+    }
+ #div1{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(4, 59, 59);
+    overflow-y: scroll;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 3px;
+ }   
+ embed{
+    margin-top: 10px;
+    margin-left:10px ;
+ }
+ embed:hover{
+    opacity: 0.2;
+ }
+ /* figure{
+    height: 10px;
+    width: 100px;
+ } */
+
+ img{
+    height: 100px;
+    width: 100px;
+    margin-top: 0;
+ }
+ #insert{
+    del{
+        background-color: greenyellow;
+    }
+    ins{
+        background-color: cadetblue;
+    }
+ }
+ menu{
+    list-style: none;
+    border: 2px solid black; 
+ }
+ nav li {
+    display: inline;
+    margin: 4px;
+    list-style: none;
+    background-color:palegoldenrod;
+ }
+ section{
+     font-family: sans-serif;
+     text-align: center;
+     background-color: azure;
+     
+    }
+section:hover{
+    background-color: rgb(16, 105, 221);
+    transition: 1s;
+ }
+ span{
+    background-color: violet;
+ }
+ strong{
+    background-color: rgba(115, 115, 226, 0.243);
+ }
+
+    table {
+        width: 50%;
+        border-collapse: collapse;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+        background-color: #ddd;
+    }
+
+    tfoot tr {
+        font-weight: bold;
+        background-color: #f9f9f9;
+    }
+
